@@ -7,23 +7,29 @@
 //
 
 #import "LANCOOViewController.h"
+#import "LancooPhotoAlertView.h"
 
 @interface LANCOOViewController ()
+
+@property (nonatomic, strong) NSArray *assets;
 
 @end
 
 @implementation LANCOOViewController
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    
+	self.view.backgroundColor = UIColor.redColor;
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    __weak typeof(self) weakSelf = self;
+    [LancooPhotoAlertView showPhotoLibraryWithSelectedAssets:self.assets configuration:^(LancooPhotoConfiguration * _Nonnull configuration) {
+//        configuration.allowSelectVideo = NO;
+    } fromController:self completion:^(NSArray * _Nonnull assets) {
+        weakSelf.assets = assets;
+    }];
 }
 
 @end

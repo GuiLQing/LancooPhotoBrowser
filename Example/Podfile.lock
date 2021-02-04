@@ -1,0 +1,16 @@
+PODS:
+  - LancooPhotoBrowser (1.0.0)
+
+DEPENDENCIES:
+  - LancooPhotoBrowser (from `../`)
+
+EXTERNAL SOURCES:
+  LancooPhotoBrowser:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LancooPhotoBrowser: 1e98c2af36e7fe9da415420db06dfd4da04b7330
+
+PODFILE CHECKSUM: 35df28296b3bc3447801e209e5eff852625a67b6
+
+COCOAPODS: 1.9.1

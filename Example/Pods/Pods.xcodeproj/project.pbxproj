@@ -1,0 +1,1006 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00984593F0A3E85DEC91A4882E772145 /* Pods-LancooPhotoBrowser_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 56DC4A8D059B52AAD5C8A0F568B05006 /* Pods-LancooPhotoBrowser_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		067E24EF7DBE121A32B7092003D5A365 /* LancooThumbnailListController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5A8A706DF0CE2CF70DCD8DF5DA48C05 /* LancooThumbnailListController.m */; };
+		099D548FB85879A3746B7312F8232F7D /* LancooPhotoAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D2A3162B50B96C0D16EFE0C8B88D33F /* LancooPhotoAlertView.m */; };
+		0BC925955CE66B816282C0FA1DD60366 /* lancoo_focus@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 24D2833FB3780F765B0024AD4BE8FC6A /* lancoo_focus@2x.png */; };
+		10327FABF095711CBF8F83BAC44A2CDF /* lancoo_toggle_camera@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4808EB3E63F8E1096E79233B27B238EE /* lancoo_toggle_camera@2x.png */; };
+		1C39610081B22E4C6A1BDDA817FDD529 /* lancoo_toggle_camera@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E72B6AA2C4EFC047AFC803452094A18 /* lancoo_toggle_camera@3x.png */; };
+		1DB47C5EAE309D57A07AF41415854E3C /* LancooPhotoBrowser-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B6652F6EF4C9E6B418B9F9573BC41677 /* LancooPhotoBrowser-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26C8AE2F3290B5D92F80AD7FD60C3A7B /* LancooPhotoConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = CA060A785B2B779D538FDF5315864430 /* LancooPhotoConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F83DE5A1DAE9AB759BC037933A35FF0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		4C79FBE9B04E4F8704F9A5603C20E9CC /* LancooPhotoBrowser-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FDCE912CCC0624DCE1B920AD0EDF31DE /* LancooPhotoBrowser-dummy.m */; };
+		4DF8CFBBBC0B7DEE85CEF4108D048073 /* lancoo_focus@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2EFF6E513A6A0086BDC9545417BC3DCD /* lancoo_focus@3x.png */; };
+		52E589FA99CE410AC1A5613F450ABA87 /* lancoo_arrow_down@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D192FA872FEF36CF787C94EB86E8E6B /* lancoo_arrow_down@3x.png */; };
+		54295376A7878E01458752A60B91FE66 /* LancooPhotoConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E7D03BF20E80B3C51E84D1642883E02 /* LancooPhotoConfiguration.m */; };
+		5539CC0249BD56B03A9BF9FAA9556990 /* Pods-LancooPhotoBrowser_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 298A5F9E5692F22FF171B982099BA9EB /* Pods-LancooPhotoBrowser_Example-dummy.m */; };
+		5779D63D9C736B4953E287756F078CC5 /* lancoo_retake@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E065A4D06E758E5890D2476DF2AE839 /* lancoo_retake@2x.png */; };
+		5D71455BAB55E2EEF10DCCA8B619E483 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		5F9B8D80ABEF41074C30410AE2D9F32F /* lancoo_videoView@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 824FFF266CFBB88693AB34A57C34E600 /* lancoo_videoView@2x.png */; };
+		653E82C02CE13C1608B3DB6534D20167 /* LancooAlbumListController.m in Sources */ = {isa = PBXBuildFile; fileRef = C53729FAAA1A8D91C355A443F83F1C62 /* LancooAlbumListController.m */; };
+		769E24540AC7D1B0A5F52C17AC2CD506 /* Pods-LancooPhotoBrowser_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6DFADABBC39DF6E81BD5BD5FC96FE0 /* Pods-LancooPhotoBrowser_Tests-dummy.m */; };
+		77988C4D36DEB08F24CFEA5BB32DE0BA /* LancooAlbumModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DAD3AD47C6485FC185C0830C7D4B17B /* LancooAlbumModel.m */; };
+		796A7955336EAEB1841F8798F2EEE835 /* LancooPhotoManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A18D6C46EEB668D4E41B88F2679BCCDE /* LancooPhotoManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		84A88CF5998FDAC22CB2084693A93050 /* lancoo_video@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C331712E2DB3F0E759773C72729D789 /* lancoo_video@3x.png */; };
+		84C108BCA38C84ADE90D7BA8DF270080 /* LancooPhotoNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B1D76D67F21BCAB1DD2A01E3F3A921F /* LancooPhotoNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8653855B5A3A4EBD10363CC30846B49F /* Pods-LancooPhotoBrowser_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C189F529BCDD04FCBCEB68ED281DE3D5 /* Pods-LancooPhotoBrowser_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8996665B62E273BE61814299A4CC115C /* LancooAlbumListController.h in Headers */ = {isa = PBXBuildFile; fileRef = CE2D5976819ADA63FE1477170FD9C100 /* LancooAlbumListController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A04B58C2D6DF6EC2A56FA5663B27BBBA /* lancoo_retake@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 24C3BEB42FE766A157A8D90C85F22695 /* lancoo_retake@3x.png */; };
+		A0D2B4F3EB063846DA9A24203D675617 /* lancoo_video@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CAFB113E28DF905AB07E06B3D8E56760 /* lancoo_video@2x.png */; };
+		A1170B2E5CDAEE6C2C1F19B6D9BD513E /* LancooPhotoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 89B1A498D4C8A272AAEA81AC6E5FAAAF /* LancooPhotoManager.m */; };
+		A515F43334AA72E4EF64FF0654B0A515 /* LancooPhotoBrowser.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AFDCFC3828C7E8B14520FEE65B15FB4F /* LancooPhotoBrowser.bundle */; };
+		A99C42558255DE89A68459A405DCF74E /* lancoo_takePhoto@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 89DF2FF619934F6188593E120FF4DBD3 /* lancoo_takePhoto@2x.png */; };
+		AC3C8B99812C0A6D8DDE01DA46C4190E /* lancoo_videoView@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D7B9CF3878CA8F43E4D21B5AF08FF038 /* lancoo_videoView@3x.png */; };
+		B3373AD2D66B3286ABE14A2B37FD815D /* LancooCustomCameraController.m in Sources */ = {isa = PBXBuildFile; fileRef = F35ABD5180D14AEEF2554B8B8A855DFB /* LancooCustomCameraController.m */; };
+		B5D1575E115F8E16FDB4D1068227DE82 /* lancoo_takeok@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BEA5B075EA8C2133F9353DF333EFECAE /* lancoo_takeok@2x.png */; };
+		B7E3E77B47970BD29CABBB7257BAA6BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		C114B612355ECB6A4B139E07087BF612 /* LancooThumbnailListController.h in Headers */ = {isa = PBXBuildFile; fileRef = 244FB70D82CC76327919B29503097785 /* LancooThumbnailListController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2ED876779500F9BE070043222F7E92D /* LancooCustomCameraController.h in Headers */ = {isa = PBXBuildFile; fileRef = 723D4CED4DBDBC02990EF7F251A10CB8 /* LancooCustomCameraController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2FF3D2A424F41E7BAAC0B43AE5C48D4 /* LancooAlbumModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 898D192EABE7A5840283A83DAB2A20C1 /* LancooAlbumModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D1515F2502BC9FD33A3CD31DE576B46F /* lancoo_takeok@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 40AA5E88B7571081E4AAAEC72F03B94B /* lancoo_takeok@3x.png */; };
+		D772BD014325E411F108FECC916313B4 /* lancoo_arrow_down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EECCED63C7D277C7D1D34A504CEDD2D /* lancoo_arrow_down@2x.png */; };
+		E5ACC9EA65B13ACF9BDC629222FFDF44 /* LancooPhotoNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 645E7AF2FFF1F0E9F339DAB3425CF9B8 /* LancooPhotoNavigationController.m */; };
+		E77118E5330C9B411E4EFFC8AB6E9E77 /* lancoo_takePhoto@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A25C293986EAF6831DD375B084D8851C /* lancoo_takePhoto@3x.png */; };
+		F25623F0746B719FF213543ECECF7601 /* LancooPhotoAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D18A5A3CAA19647F048C466186A2BD4 /* LancooPhotoAlertView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5F4E6489E71893A896398DABC214DD4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76714B1F802506437781F46F45726816;
+			remoteInfo = LancooPhotoBrowser;
+		};
+		74BCFD9208D986710C4CE18CDF52444F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0902668DA0EBF4ADEC2BCCFC65DF074C;
+			remoteInfo = "Pods-LancooPhotoBrowser_Example";
+		};
+		8C908129037580AD6D5F6843BC89A041 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4C96664341C16D1FCF286EB49F00876;
+			remoteInfo = "LancooPhotoBrowser-LancooPhotoBrowser";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04FEFF60B140B58FC9295E1F8B231915 /* Pods-LancooPhotoBrowser_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LancooPhotoBrowser_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		0730061866FF3BA9011AC26F1272191B /* Pods-LancooPhotoBrowser_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LancooPhotoBrowser_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		0C1A0918FDDB34A8253ACD940629C483 /* LancooPhotoBrowser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LancooPhotoBrowser.debug.xcconfig; sourceTree = "<group>"; };
+		0D18A5A3CAA19647F048C466186A2BD4 /* LancooPhotoAlertView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LancooPhotoAlertView.h; path = LancooPhotoBrowser/Classes/LancooPhotoBrowser/LancooPhotoAlertView.h; sourceTree = "<group>"; };
+		0E72B6AA2C4EFC047AFC803452094A18 /* lancoo_toggle_camera@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "lancoo_toggle_camera@3x.png"; path = "LancooPhotoBrowser/Assets/LancooResource/lancoo_toggle_camera@3x.png"; sourceTree = "<group>"; };
+		191F4C494E932FCE7CAEE91B1CB11D97 /* LancooPhotoBrowser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LancooPhotoBrowser.release.xcconfig; sourceTree = "<group>"; };
+		1AB51035FD243F1549333271C909DDCE /* Pods_LancooPhotoBrowser_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LancooPhotoBrowser_Example.framework; path = "Pods-LancooPhotoBrowser_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D192FA872FEF36CF787C94EB86E8E6B /* lancoo_arrow_down@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "lancoo_arrow_down@3x.png"; path = "LancooPhotoBrowser/Assets/LancooResource/lancoo_arrow_down@3x.png"; sourceTree = "<group>"; };
+		1D2A3162B50B96C0D16EFE0C8B88D33F /* LancooPhotoAlertView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LancooPhotoAlertView.m; path = LancooPhotoBrowser/Classes/LancooPhotoBrowser/LancooPhotoAlertView.m; sourceTree = "<group>"; };
+		1E065A4D06E758E5890D2476DF2AE839 /* lancoo_retake@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "lancoo_retake@2x.png"; path = "LancooPhotoBrowser/Assets/LancooResource/lancoo_retake@2x.png"; sourceTree = "<group>"; };
+		1E7D03BF20E80B3C51E84D1642883E02 /* LancooPhotoConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LancooPhotoConfiguration.m; path = LancooPhotoBrowser/Classes/LancooPhotoBrowser/LancooPhotoConfiguration.m; sourceTree = "<group>"; };
+		244FB70D82CC76327919B29503097785 /* LancooThumbnailListController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LancooThumbnailListController.h; path = LancooPhotoBrowser/Classes/LancooPhotoBrowser/LancooThumbnailListController.h; sourceTree = "<group>"; };
+		24C3BEB42FE766A157A8D90C85F22695 /* lancoo_retake@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "lancoo_retake@3x.png"; path = "LancooPhotoBrowser/Assets/LancooResource/lancoo_retake@3x.png"; sourceTree = "<group>"; };
+		24D2833FB3780F765B0024AD4BE8FC6A /* lancoo_focus@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "lancoo_focus@2x.png"; path = "LancooPhotoBrowser/Assets/LancooResource/lancoo_focus@2x.png"; sourceTree = "<group>"; };
+		28EC3022EF14FBB807617FC03D0C621C /* LancooPhotoBrowser-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LancooPhotoBrowser-prefix.pch"; sourceTree = "<group>"; };
+		298A5F9E5692F22FF171B982099BA9EB /* Pods-LancooPhotoBrowser_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LancooPhotoBrowser_Example-dummy.m"; sourceTree = "<group>"; };
+		2EFF6E513A6A0086BDC9545417BC3DCD /* lancoo_focus@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "lancoo_focus@3x.png"; path = "LancooPhotoBrowser/Assets/LancooResource/lancoo_focus@3x.png"; sourceTree = "<group>"; };
+		3211090A60C8654EBD9D120CECF27FA7 /* LancooPhotoBrowser.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LancooPhotoBrowser.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3C331712E2DB3F0E759773C72729D789 /* lancoo_video@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "lancoo_video@3x.png"; path = "LancooPhotoBrowser/Assets/LancooResource/lancoo_video@3x.png"; sourceTree = "<group>"; };
+		40AA5E88B7571081E4AAAEC72F03B94B /* lancoo_takeok@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "lancoo_takeok@3x.png"; path = "LancooPhotoBrowser/Assets/LancooResource/lancoo_takeok@3x.png"; sourceTree = "<group>"; };
+		4621C994199A76A9C7771AD13C5F45AD /* Pods-LancooPhotoBrowser_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LancooPhotoBrowser_Example-frameworks.sh"; sourceTree = "<group>"; };
+		476A7A993F2CB146007600AFE6E3FDF2 /* Pods_LancooPhotoBrowser_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LancooPhotoBrowser_Tests.framework; path = "Pods-LancooPhotoBrowser_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4808EB3E63F8E1096E79233B27B238EE /* lancoo_toggle_camera@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "lancoo_toggle_camera@2x.png"; path = "LancooPhotoBrowser/Assets/LancooResource/lancoo_toggle_camera@2x.png"; sourceTree = "<group>"; };
+		4992267D484E4E602DC25E9CB55CA114 /* Pods-LancooPhotoBrowser_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LancooPhotoBrowser_Example.modulemap"; sourceTree = "<group>"; };
+		4D6DFADABBC39DF6E81BD5BD5FC96FE0 /* Pods-LancooPhotoBrowser_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LancooPhotoBrowser_Tests-dummy.m"; sourceTree = "<group>"; };
+		56DC4A8D059B52AAD5C8A0F568B05006 /* Pods-LancooPhotoBrowser_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LancooPhotoBrowser_Tests-umbrella.h"; sourceTree = "<group>"; };
+		5C3F2C679FB492ED166983667BDD589B /* Pods-LancooPhotoBrowser_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LancooPhotoBrowser_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		645E7AF2FFF1F0E9F339DAB3425CF9B8 /* LancooPhotoNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LancooPhotoNavigationController.m; path = LancooPhotoBrowser/Classes/LancooPhotoBrowser/LancooPhotoNavigationController.m; sourceTree = "<group>"; };
+		64B32502EF12E287E178310A5E1EF0A2 /* ResourceBundle-LancooPhotoBrowser-LancooPhotoBrowser-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-LancooPhotoBrowser-LancooPhotoBrowser-Info.plist"; sourceTree = "<group>"; };
+		723D4CED4DBDBC02990EF7F251A10CB8 /* LancooCustomCameraController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LancooCustomCameraController.h; path = LancooPhotoBrowser/Classes/LancooPhotoBrowser/LancooCustomCameraController.h; sourceTree = "<group>"; };
+		824FFF266CFBB88693AB34A57C34E600 /* lancoo_videoView@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "lancoo_videoView@2x.png"; path = "LancooPhotoBrowser/Assets/LancooResource/lancoo_videoView@2x.png"; sourceTree = "<group>"; };
+		898D192EABE7A5840283A83DAB2A20C1 /* LancooAlbumModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LancooAlbumModel.h; path = LancooPhotoBrowser/Classes/LancooPhotoBrowser/LancooAlbumModel.h; sourceTree = "<group>"; };
+		89B1A498D4C8A272AAEA81AC6E5FAAAF /* LancooPhotoManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LancooPhotoManager.m; path = LancooPhotoBrowser/Classes/LancooPhotoBrowser/LancooPhotoManager.m; sourceTree = "<group>"; };
+		89DF2FF619934F6188593E120FF4DBD3 /* lancoo_takePhoto@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "lancoo_takePhoto@2x.png"; path = "LancooPhotoBrowser/Assets/LancooResource/lancoo_takePhoto@2x.png"; sourceTree = "<group>"; };
+		8B1D76D67F21BCAB1DD2A01E3F3A921F /* LancooPhotoNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LancooPhotoNavigationController.h; path = LancooPhotoBrowser/Classes/LancooPhotoBrowser/LancooPhotoNavigationController.h; sourceTree = "<group>"; };
+		8DAD3AD47C6485FC185C0830C7D4B17B /* LancooAlbumModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LancooAlbumModel.m; path = LancooPhotoBrowser/Classes/LancooPhotoBrowser/LancooAlbumModel.m; sourceTree = "<group>"; };
+		8F7D9F24A1869C1100D120FBE2E20CB0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		9862D17C9B34568307609106516FAA13 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EECCED63C7D277C7D1D34A504CEDD2D /* lancoo_arrow_down@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "lancoo_arrow_down@2x.png"; path = "LancooPhotoBrowser/Assets/LancooResource/lancoo_arrow_down@2x.png"; sourceTree = "<group>"; };
+		A135193385FA9C924DE89D9762D1C841 /* Pods-LancooPhotoBrowser_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LancooPhotoBrowser_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		A18D6C46EEB668D4E41B88F2679BCCDE /* LancooPhotoManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LancooPhotoManager.h; path = LancooPhotoBrowser/Classes/LancooPhotoBrowser/LancooPhotoManager.h; sourceTree = "<group>"; };
+		A25C293986EAF6831DD375B084D8851C /* lancoo_takePhoto@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "lancoo_takePhoto@3x.png"; path = "LancooPhotoBrowser/Assets/LancooResource/lancoo_takePhoto@3x.png"; sourceTree = "<group>"; };
+		A5EFCEAB12B73E1930A76D73CBBFC010 /* Pods-LancooPhotoBrowser_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LancooPhotoBrowser_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		ABF338035C9122C1E36D967534E55A2D /* LancooPhotoBrowser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LancooPhotoBrowser.framework; path = LancooPhotoBrowser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFDCFC3828C7E8B14520FEE65B15FB4F /* LancooPhotoBrowser.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = LancooPhotoBrowser.bundle; path = "LancooPhotoBrowser-LancooPhotoBrowser.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3ED736A9B11D755BB448CD7C4D44488 /* Pods-LancooPhotoBrowser_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LancooPhotoBrowser_Tests.modulemap"; sourceTree = "<group>"; };
+		B6652F6EF4C9E6B418B9F9573BC41677 /* LancooPhotoBrowser-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LancooPhotoBrowser-umbrella.h"; sourceTree = "<group>"; };
+		BEA5B075EA8C2133F9353DF333EFECAE /* lancoo_takeok@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "lancoo_takeok@2x.png"; path = "LancooPhotoBrowser/Assets/LancooResource/lancoo_takeok@2x.png"; sourceTree = "<group>"; };
+		C189F529BCDD04FCBCEB68ED281DE3D5 /* Pods-LancooPhotoBrowser_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LancooPhotoBrowser_Example-umbrella.h"; sourceTree = "<group>"; };
+		C1964DBF716A419BAAB246B523159AD6 /* Pods-LancooPhotoBrowser_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LancooPhotoBrowser_Tests-Info.plist"; sourceTree = "<group>"; };
+		C53729FAAA1A8D91C355A443F83F1C62 /* LancooAlbumListController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LancooAlbumListController.m; path = LancooPhotoBrowser/Classes/LancooPhotoBrowser/LancooAlbumListController.m; sourceTree = "<group>"; };
+		CA060A785B2B779D538FDF5315864430 /* LancooPhotoConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LancooPhotoConfiguration.h; path = LancooPhotoBrowser/Classes/LancooPhotoBrowser/LancooPhotoConfiguration.h; sourceTree = "<group>"; };
+		CAFB113E28DF905AB07E06B3D8E56760 /* lancoo_video@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "lancoo_video@2x.png"; path = "LancooPhotoBrowser/Assets/LancooResource/lancoo_video@2x.png"; sourceTree = "<group>"; };
+		CE2D5976819ADA63FE1477170FD9C100 /* LancooAlbumListController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LancooAlbumListController.h; path = LancooPhotoBrowser/Classes/LancooPhotoBrowser/LancooAlbumListController.h; sourceTree = "<group>"; };
+		CF8268CF80ACA7F52801C047FFD5C0BC /* Pods-LancooPhotoBrowser_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LancooPhotoBrowser_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		D53A000E94EE435EC3D3CEF3753B42C6 /* Pods-LancooPhotoBrowser_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LancooPhotoBrowser_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D5429A2703CB21DFD16AE43FB1C55497 /* Pods-LancooPhotoBrowser_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LancooPhotoBrowser_Example.release.xcconfig"; sourceTree = "<group>"; };
+		D5A8A706DF0CE2CF70DCD8DF5DA48C05 /* LancooThumbnailListController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LancooThumbnailListController.m; path = LancooPhotoBrowser/Classes/LancooPhotoBrowser/LancooThumbnailListController.m; sourceTree = "<group>"; };
+		D7B9CF3878CA8F43E4D21B5AF08FF038 /* lancoo_videoView@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "lancoo_videoView@3x.png"; path = "LancooPhotoBrowser/Assets/LancooResource/lancoo_videoView@3x.png"; sourceTree = "<group>"; };
+		DD6F2CD8498D056C238E9D82130C1127 /* LancooPhotoBrowser.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LancooPhotoBrowser.modulemap; sourceTree = "<group>"; };
+		F35ABD5180D14AEEF2554B8B8A855DFB /* LancooCustomCameraController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LancooCustomCameraController.m; path = LancooPhotoBrowser/Classes/LancooPhotoBrowser/LancooCustomCameraController.m; sourceTree = "<group>"; };
+		F4DA5CC0D7F8B7978A8E9813F8E8F1D2 /* Pods-LancooPhotoBrowser_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LancooPhotoBrowser_Example-Info.plist"; sourceTree = "<group>"; };
+		FD8A5E0C804C6395E1B9D4B3E7C1DD22 /* LancooPhotoBrowser-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LancooPhotoBrowser-Info.plist"; sourceTree = "<group>"; };
+		FDCE912CCC0624DCE1B920AD0EDF31DE /* LancooPhotoBrowser-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LancooPhotoBrowser-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E64D43C48E08F31C722FE52942F6C37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D71455BAB55E2EEF10DCCA8B619E483 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		744C26397A6902924FC382130B79ED03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		839D3F15B0147CC0C6174C0C288FE179 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7E3E77B47970BD29CABBB7257BAA6BF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F112383D71589BE3F803D709DF885984 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F83DE5A1DAE9AB759BC037933A35FF0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		200EB74E33F37D824A09599EE9184079 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				3211090A60C8654EBD9D120CECF27FA7 /* LancooPhotoBrowser.podspec */,
+				8F7D9F24A1869C1100D120FBE2E20CB0 /* LICENSE */,
+				9862D17C9B34568307609106516FAA13 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		4E8CBF2967E4B389B3B5B8286EA2352D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFDCFC3828C7E8B14520FEE65B15FB4F /* LancooPhotoBrowser.bundle */,
+				ABF338035C9122C1E36D967534E55A2D /* LancooPhotoBrowser.framework */,
+				1AB51035FD243F1549333271C909DDCE /* Pods_LancooPhotoBrowser_Example.framework */,
+				476A7A993F2CB146007600AFE6E3FDF2 /* Pods_LancooPhotoBrowser_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		716E5314BE5975F8500FE6C591E50719 /* Pods-LancooPhotoBrowser_Example */ = {
+			isa = PBXGroup;
+			children = (
+				4992267D484E4E602DC25E9CB55CA114 /* Pods-LancooPhotoBrowser_Example.modulemap */,
+				D53A000E94EE435EC3D3CEF3753B42C6 /* Pods-LancooPhotoBrowser_Example-acknowledgements.markdown */,
+				0730061866FF3BA9011AC26F1272191B /* Pods-LancooPhotoBrowser_Example-acknowledgements.plist */,
+				298A5F9E5692F22FF171B982099BA9EB /* Pods-LancooPhotoBrowser_Example-dummy.m */,
+				4621C994199A76A9C7771AD13C5F45AD /* Pods-LancooPhotoBrowser_Example-frameworks.sh */,
+				F4DA5CC0D7F8B7978A8E9813F8E8F1D2 /* Pods-LancooPhotoBrowser_Example-Info.plist */,
+				C189F529BCDD04FCBCEB68ED281DE3D5 /* Pods-LancooPhotoBrowser_Example-umbrella.h */,
+				A135193385FA9C924DE89D9762D1C841 /* Pods-LancooPhotoBrowser_Example.debug.xcconfig */,
+				D5429A2703CB21DFD16AE43FB1C55497 /* Pods-LancooPhotoBrowser_Example.release.xcconfig */,
+			);
+			name = "Pods-LancooPhotoBrowser_Example";
+			path = "Target Support Files/Pods-LancooPhotoBrowser_Example";
+			sourceTree = "<group>";
+		};
+		9FDBBCE34992C35470BA331C3825D3EE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD6F2CD8498D056C238E9D82130C1127 /* LancooPhotoBrowser.modulemap */,
+				FDCE912CCC0624DCE1B920AD0EDF31DE /* LancooPhotoBrowser-dummy.m */,
+				FD8A5E0C804C6395E1B9D4B3E7C1DD22 /* LancooPhotoBrowser-Info.plist */,
+				28EC3022EF14FBB807617FC03D0C621C /* LancooPhotoBrowser-prefix.pch */,
+				B6652F6EF4C9E6B418B9F9573BC41677 /* LancooPhotoBrowser-umbrella.h */,
+				0C1A0918FDDB34A8253ACD940629C483 /* LancooPhotoBrowser.debug.xcconfig */,
+				191F4C494E932FCE7CAEE91B1CB11D97 /* LancooPhotoBrowser.release.xcconfig */,
+				64B32502EF12E287E178310A5E1EF0A2 /* ResourceBundle-LancooPhotoBrowser-LancooPhotoBrowser-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LancooPhotoBrowser";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C1786FC201FA5BFFD72A95E0B4CA5A41 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D7E9B72F2A3EFF49C6568A10CA22F093 /* LancooPhotoBrowser */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				C1786FC201FA5BFFD72A95E0B4CA5A41 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				4E8CBF2967E4B389B3B5B8286EA2352D /* Products */,
+				E8F5E18182F363D80D9A9C4B180217FC /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D5197D1285D7FCEC273DA84AB4541CF4 /* Pods-LancooPhotoBrowser_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B3ED736A9B11D755BB448CD7C4D44488 /* Pods-LancooPhotoBrowser_Tests.modulemap */,
+				5C3F2C679FB492ED166983667BDD589B /* Pods-LancooPhotoBrowser_Tests-acknowledgements.markdown */,
+				A5EFCEAB12B73E1930A76D73CBBFC010 /* Pods-LancooPhotoBrowser_Tests-acknowledgements.plist */,
+				4D6DFADABBC39DF6E81BD5BD5FC96FE0 /* Pods-LancooPhotoBrowser_Tests-dummy.m */,
+				C1964DBF716A419BAAB246B523159AD6 /* Pods-LancooPhotoBrowser_Tests-Info.plist */,
+				56DC4A8D059B52AAD5C8A0F568B05006 /* Pods-LancooPhotoBrowser_Tests-umbrella.h */,
+				04FEFF60B140B58FC9295E1F8B231915 /* Pods-LancooPhotoBrowser_Tests.debug.xcconfig */,
+				CF8268CF80ACA7F52801C047FFD5C0BC /* Pods-LancooPhotoBrowser_Tests.release.xcconfig */,
+			);
+			name = "Pods-LancooPhotoBrowser_Tests";
+			path = "Target Support Files/Pods-LancooPhotoBrowser_Tests";
+			sourceTree = "<group>";
+		};
+		D7E9B72F2A3EFF49C6568A10CA22F093 /* LancooPhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				CE2D5976819ADA63FE1477170FD9C100 /* LancooAlbumListController.h */,
+				C53729FAAA1A8D91C355A443F83F1C62 /* LancooAlbumListController.m */,
+				898D192EABE7A5840283A83DAB2A20C1 /* LancooAlbumModel.h */,
+				8DAD3AD47C6485FC185C0830C7D4B17B /* LancooAlbumModel.m */,
+				723D4CED4DBDBC02990EF7F251A10CB8 /* LancooCustomCameraController.h */,
+				F35ABD5180D14AEEF2554B8B8A855DFB /* LancooCustomCameraController.m */,
+				0D18A5A3CAA19647F048C466186A2BD4 /* LancooPhotoAlertView.h */,
+				1D2A3162B50B96C0D16EFE0C8B88D33F /* LancooPhotoAlertView.m */,
+				CA060A785B2B779D538FDF5315864430 /* LancooPhotoConfiguration.h */,
+				1E7D03BF20E80B3C51E84D1642883E02 /* LancooPhotoConfiguration.m */,
+				A18D6C46EEB668D4E41B88F2679BCCDE /* LancooPhotoManager.h */,
+				89B1A498D4C8A272AAEA81AC6E5FAAAF /* LancooPhotoManager.m */,
+				8B1D76D67F21BCAB1DD2A01E3F3A921F /* LancooPhotoNavigationController.h */,
+				645E7AF2FFF1F0E9F339DAB3425CF9B8 /* LancooPhotoNavigationController.m */,
+				244FB70D82CC76327919B29503097785 /* LancooThumbnailListController.h */,
+				D5A8A706DF0CE2CF70DCD8DF5DA48C05 /* LancooThumbnailListController.m */,
+				200EB74E33F37D824A09599EE9184079 /* Pod */,
+				EEA79BE161198481534F780F85A81072 /* Resources */,
+				9FDBBCE34992C35470BA331C3825D3EE /* Support Files */,
+			);
+			name = LancooPhotoBrowser;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		E8F5E18182F363D80D9A9C4B180217FC /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				716E5314BE5975F8500FE6C591E50719 /* Pods-LancooPhotoBrowser_Example */,
+				D5197D1285D7FCEC273DA84AB4541CF4 /* Pods-LancooPhotoBrowser_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		EEA79BE161198481534F780F85A81072 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9EECCED63C7D277C7D1D34A504CEDD2D /* lancoo_arrow_down@2x.png */,
+				1D192FA872FEF36CF787C94EB86E8E6B /* lancoo_arrow_down@3x.png */,
+				24D2833FB3780F765B0024AD4BE8FC6A /* lancoo_focus@2x.png */,
+				2EFF6E513A6A0086BDC9545417BC3DCD /* lancoo_focus@3x.png */,
+				1E065A4D06E758E5890D2476DF2AE839 /* lancoo_retake@2x.png */,
+				24C3BEB42FE766A157A8D90C85F22695 /* lancoo_retake@3x.png */,
+				BEA5B075EA8C2133F9353DF333EFECAE /* lancoo_takeok@2x.png */,
+				40AA5E88B7571081E4AAAEC72F03B94B /* lancoo_takeok@3x.png */,
+				89DF2FF619934F6188593E120FF4DBD3 /* lancoo_takePhoto@2x.png */,
+				A25C293986EAF6831DD375B084D8851C /* lancoo_takePhoto@3x.png */,
+				4808EB3E63F8E1096E79233B27B238EE /* lancoo_toggle_camera@2x.png */,
+				0E72B6AA2C4EFC047AFC803452094A18 /* lancoo_toggle_camera@3x.png */,
+				CAFB113E28DF905AB07E06B3D8E56760 /* lancoo_video@2x.png */,
+				3C331712E2DB3F0E759773C72729D789 /* lancoo_video@3x.png */,
+				824FFF266CFBB88693AB34A57C34E600 /* lancoo_videoView@2x.png */,
+				D7B9CF3878CA8F43E4D21B5AF08FF038 /* lancoo_videoView@3x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		049231AC6F9A4BE599BE12519DAA4279 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8653855B5A3A4EBD10363CC30846B49F /* Pods-LancooPhotoBrowser_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B4E97EFF1317846AD73CD5D740F4D12 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8996665B62E273BE61814299A4CC115C /* LancooAlbumListController.h in Headers */,
+				C2FF3D2A424F41E7BAAC0B43AE5C48D4 /* LancooAlbumModel.h in Headers */,
+				C2ED876779500F9BE070043222F7E92D /* LancooCustomCameraController.h in Headers */,
+				F25623F0746B719FF213543ECECF7601 /* LancooPhotoAlertView.h in Headers */,
+				1DB47C5EAE309D57A07AF41415854E3C /* LancooPhotoBrowser-umbrella.h in Headers */,
+				26C8AE2F3290B5D92F80AD7FD60C3A7B /* LancooPhotoConfiguration.h in Headers */,
+				796A7955336EAEB1841F8798F2EEE835 /* LancooPhotoManager.h in Headers */,
+				84C108BCA38C84ADE90D7BA8DF270080 /* LancooPhotoNavigationController.h in Headers */,
+				C114B612355ECB6A4B139E07087BF612 /* LancooThumbnailListController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77BA13BDD7F2C0E8E5A551F37BF92A0F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00984593F0A3E85DEC91A4882E772145 /* Pods-LancooPhotoBrowser_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0902668DA0EBF4ADEC2BCCFC65DF074C /* Pods-LancooPhotoBrowser_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1943F18F3FC8CBEFB08713A21C2525E4 /* Build configuration list for PBXNativeTarget "Pods-LancooPhotoBrowser_Example" */;
+			buildPhases = (
+				049231AC6F9A4BE599BE12519DAA4279 /* Headers */,
+				388737DA1C01F52DDDCB58079BE1416D /* Sources */,
+				F112383D71589BE3F803D709DF885984 /* Frameworks */,
+				E84D66F96D1EE6F8EAA67E1E505790B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8913CD84C75C0DA13786E0798C2435B8 /* PBXTargetDependency */,
+			);
+			name = "Pods-LancooPhotoBrowser_Example";
+			productName = "Pods-LancooPhotoBrowser_Example";
+			productReference = 1AB51035FD243F1549333271C909DDCE /* Pods_LancooPhotoBrowser_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		76714B1F802506437781F46F45726816 /* LancooPhotoBrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5311E801878A0CEAB2845F4E1537746 /* Build configuration list for PBXNativeTarget "LancooPhotoBrowser" */;
+			buildPhases = (
+				6B4E97EFF1317846AD73CD5D740F4D12 /* Headers */,
+				2071F08940995CD8D9BA321FE7EAE74E /* Sources */,
+				1E64D43C48E08F31C722FE52942F6C37 /* Frameworks */,
+				408A5B89E50982CC31AD89D659D41115 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24A8B5957162850C2D952FE0E29CA3ED /* PBXTargetDependency */,
+			);
+			name = LancooPhotoBrowser;
+			productName = LancooPhotoBrowser;
+			productReference = ABF338035C9122C1E36D967534E55A2D /* LancooPhotoBrowser.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CDA70FA3BAEB417305337256EDDD6F26 /* Pods-LancooPhotoBrowser_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2ABAA1E9BD9577A6A99F30B13E7AA647 /* Build configuration list for PBXNativeTarget "Pods-LancooPhotoBrowser_Tests" */;
+			buildPhases = (
+				77BA13BDD7F2C0E8E5A551F37BF92A0F /* Headers */,
+				EAC35C8B639B2E4630B6A3DB14CE837D /* Sources */,
+				839D3F15B0147CC0C6174C0C288FE179 /* Frameworks */,
+				CC0570FD2E9A18949E8B299AF459E12C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9C7934EF1013EE8B2684A73A9BCA48C /* PBXTargetDependency */,
+			);
+			name = "Pods-LancooPhotoBrowser_Tests";
+			productName = "Pods-LancooPhotoBrowser_Tests";
+			productReference = 476A7A993F2CB146007600AFE6E3FDF2 /* Pods_LancooPhotoBrowser_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E4C96664341C16D1FCF286EB49F00876 /* LancooPhotoBrowser-LancooPhotoBrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A93E67E9865C2309977D1B28330926A /* Build configuration list for PBXNativeTarget "LancooPhotoBrowser-LancooPhotoBrowser" */;
+			buildPhases = (
+				4906AF1E6FE2C2C6F48C47EDFCD05F6C /* Sources */,
+				744C26397A6902924FC382130B79ED03 /* Frameworks */,
+				E0AE31F29FDE88AF028E510C887966C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LancooPhotoBrowser-LancooPhotoBrowser";
+			productName = "LancooPhotoBrowser-LancooPhotoBrowser";
+			productReference = AFDCFC3828C7E8B14520FEE65B15FB4F /* LancooPhotoBrowser.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 4E8CBF2967E4B389B3B5B8286EA2352D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				76714B1F802506437781F46F45726816 /* LancooPhotoBrowser */,
+				E4C96664341C16D1FCF286EB49F00876 /* LancooPhotoBrowser-LancooPhotoBrowser */,
+				0902668DA0EBF4ADEC2BCCFC65DF074C /* Pods-LancooPhotoBrowser_Example */,
+				CDA70FA3BAEB417305337256EDDD6F26 /* Pods-LancooPhotoBrowser_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		408A5B89E50982CC31AD89D659D41115 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A515F43334AA72E4EF64FF0654B0A515 /* LancooPhotoBrowser.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC0570FD2E9A18949E8B299AF459E12C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0AE31F29FDE88AF028E510C887966C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D772BD014325E411F108FECC916313B4 /* lancoo_arrow_down@2x.png in Resources */,
+				52E589FA99CE410AC1A5613F450ABA87 /* lancoo_arrow_down@3x.png in Resources */,
+				0BC925955CE66B816282C0FA1DD60366 /* lancoo_focus@2x.png in Resources */,
+				4DF8CFBBBC0B7DEE85CEF4108D048073 /* lancoo_focus@3x.png in Resources */,
+				5779D63D9C736B4953E287756F078CC5 /* lancoo_retake@2x.png in Resources */,
+				A04B58C2D6DF6EC2A56FA5663B27BBBA /* lancoo_retake@3x.png in Resources */,
+				B5D1575E115F8E16FDB4D1068227DE82 /* lancoo_takeok@2x.png in Resources */,
+				D1515F2502BC9FD33A3CD31DE576B46F /* lancoo_takeok@3x.png in Resources */,
+				A99C42558255DE89A68459A405DCF74E /* lancoo_takePhoto@2x.png in Resources */,
+				E77118E5330C9B411E4EFFC8AB6E9E77 /* lancoo_takePhoto@3x.png in Resources */,
+				10327FABF095711CBF8F83BAC44A2CDF /* lancoo_toggle_camera@2x.png in Resources */,
+				1C39610081B22E4C6A1BDDA817FDD529 /* lancoo_toggle_camera@3x.png in Resources */,
+				A0D2B4F3EB063846DA9A24203D675617 /* lancoo_video@2x.png in Resources */,
+				84A88CF5998FDAC22CB2084693A93050 /* lancoo_video@3x.png in Resources */,
+				5F9B8D80ABEF41074C30410AE2D9F32F /* lancoo_videoView@2x.png in Resources */,
+				AC3C8B99812C0A6D8DDE01DA46C4190E /* lancoo_videoView@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E84D66F96D1EE6F8EAA67E1E505790B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2071F08940995CD8D9BA321FE7EAE74E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				653E82C02CE13C1608B3DB6534D20167 /* LancooAlbumListController.m in Sources */,
+				77988C4D36DEB08F24CFEA5BB32DE0BA /* LancooAlbumModel.m in Sources */,
+				B3373AD2D66B3286ABE14A2B37FD815D /* LancooCustomCameraController.m in Sources */,
+				099D548FB85879A3746B7312F8232F7D /* LancooPhotoAlertView.m in Sources */,
+				4C79FBE9B04E4F8704F9A5603C20E9CC /* LancooPhotoBrowser-dummy.m in Sources */,
+				54295376A7878E01458752A60B91FE66 /* LancooPhotoConfiguration.m in Sources */,
+				A1170B2E5CDAEE6C2C1F19B6D9BD513E /* LancooPhotoManager.m in Sources */,
+				E5ACC9EA65B13ACF9BDC629222FFDF44 /* LancooPhotoNavigationController.m in Sources */,
+				067E24EF7DBE121A32B7092003D5A365 /* LancooThumbnailListController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		388737DA1C01F52DDDCB58079BE1416D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5539CC0249BD56B03A9BF9FAA9556990 /* Pods-LancooPhotoBrowser_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4906AF1E6FE2C2C6F48C47EDFCD05F6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAC35C8B639B2E4630B6A3DB14CE837D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				769E24540AC7D1B0A5F52C17AC2CD506 /* Pods-LancooPhotoBrowser_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		24A8B5957162850C2D952FE0E29CA3ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "LancooPhotoBrowser-LancooPhotoBrowser";
+			target = E4C96664341C16D1FCF286EB49F00876 /* LancooPhotoBrowser-LancooPhotoBrowser */;
+			targetProxy = 8C908129037580AD6D5F6843BC89A041 /* PBXContainerItemProxy */;
+		};
+		8913CD84C75C0DA13786E0798C2435B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LancooPhotoBrowser;
+			target = 76714B1F802506437781F46F45726816 /* LancooPhotoBrowser */;
+			targetProxy = 5F4E6489E71893A896398DABC214DD4B /* PBXContainerItemProxy */;
+		};
+		D9C7934EF1013EE8B2684A73A9BCA48C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-LancooPhotoBrowser_Example";
+			target = 0902668DA0EBF4ADEC2BCCFC65DF074C /* Pods-LancooPhotoBrowser_Example */;
+			targetProxy = 74BCFD9208D986710C4CE18CDF52444F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2E05E2A477459DA501574E0494AC61F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C1A0918FDDB34A8253ACD940629C483 /* LancooPhotoBrowser.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LancooPhotoBrowser/LancooPhotoBrowser-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LancooPhotoBrowser/LancooPhotoBrowser-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LancooPhotoBrowser/LancooPhotoBrowser.modulemap";
+				PRODUCT_MODULE_NAME = LancooPhotoBrowser;
+				PRODUCT_NAME = LancooPhotoBrowser;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3D06A2E841A40A48D3B8F2630C6F8B46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04FEFF60B140B58FC9295E1F8B231915 /* Pods-LancooPhotoBrowser_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LancooPhotoBrowser_Tests/Pods-LancooPhotoBrowser_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LancooPhotoBrowser_Tests/Pods-LancooPhotoBrowser_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5CC305B308C8BE2262D9A4D1130A0E14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5429A2703CB21DFD16AE43FB1C55497 /* Pods-LancooPhotoBrowser_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LancooPhotoBrowser_Example/Pods-LancooPhotoBrowser_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LancooPhotoBrowser_Example/Pods-LancooPhotoBrowser_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		655BBE537FA4349292A37AA2DD0260F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 191F4C494E932FCE7CAEE91B1CB11D97 /* LancooPhotoBrowser.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/LancooPhotoBrowser";
+				IBSC_MODULE = LancooPhotoBrowser;
+				INFOPLIST_FILE = "Target Support Files/LancooPhotoBrowser/ResourceBundle-LancooPhotoBrowser-LancooPhotoBrowser-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = LancooPhotoBrowser;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A970009D9280E50BE2734CB0C45EDF9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C1A0918FDDB34A8253ACD940629C483 /* LancooPhotoBrowser.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/LancooPhotoBrowser";
+				IBSC_MODULE = LancooPhotoBrowser;
+				INFOPLIST_FILE = "Target Support Files/LancooPhotoBrowser/ResourceBundle-LancooPhotoBrowser-LancooPhotoBrowser-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = LancooPhotoBrowser;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		BBDE7AAA6669D6E62FFDE6C12FA03ED7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 191F4C494E932FCE7CAEE91B1CB11D97 /* LancooPhotoBrowser.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LancooPhotoBrowser/LancooPhotoBrowser-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LancooPhotoBrowser/LancooPhotoBrowser-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LancooPhotoBrowser/LancooPhotoBrowser.modulemap";
+				PRODUCT_MODULE_NAME = LancooPhotoBrowser;
+				PRODUCT_NAME = LancooPhotoBrowser;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D7FB0A2F6B5D1B511525000E9E2C838E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A135193385FA9C924DE89D9762D1C841 /* Pods-LancooPhotoBrowser_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LancooPhotoBrowser_Example/Pods-LancooPhotoBrowser_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LancooPhotoBrowser_Example/Pods-LancooPhotoBrowser_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EA66EDDDBC8AF0C058467696DB9C5D7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF8268CF80ACA7F52801C047FFD5C0BC /* Pods-LancooPhotoBrowser_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LancooPhotoBrowser_Tests/Pods-LancooPhotoBrowser_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LancooPhotoBrowser_Tests/Pods-LancooPhotoBrowser_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A93E67E9865C2309977D1B28330926A /* Build configuration list for PBXNativeTarget "LancooPhotoBrowser-LancooPhotoBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A970009D9280E50BE2734CB0C45EDF9E /* Debug */,
+				655BBE537FA4349292A37AA2DD0260F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1943F18F3FC8CBEFB08713A21C2525E4 /* Build configuration list for PBXNativeTarget "Pods-LancooPhotoBrowser_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7FB0A2F6B5D1B511525000E9E2C838E /* Debug */,
+				5CC305B308C8BE2262D9A4D1130A0E14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2ABAA1E9BD9577A6A99F30B13E7AA647 /* Build configuration list for PBXNativeTarget "Pods-LancooPhotoBrowser_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D06A2E841A40A48D3B8F2630C6F8B46 /* Debug */,
+				EA66EDDDBC8AF0C058467696DB9C5D7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5311E801878A0CEAB2845F4E1537746 /* Build configuration list for PBXNativeTarget "LancooPhotoBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E05E2A477459DA501574E0494AC61F7 /* Debug */,
+				BBDE7AAA6669D6E62FFDE6C12FA03ED7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

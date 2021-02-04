@@ -1,0 +1,6 @@
+framework module LancooPhotoBrowser {
+  umbrella header "LancooPhotoBrowser-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_LancooPhotoBrowser_Tests {
+  umbrella header "Pods-LancooPhotoBrowser_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
